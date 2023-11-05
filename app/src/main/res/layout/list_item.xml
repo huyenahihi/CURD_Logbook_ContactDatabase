@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: " />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: " />
+
+        <TextView
+            android:id="@+id/birthdayTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birthday: " />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/avatarView"
+        android:layout_width="100dp"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:background="@color/cardview_dark_background"
+        android:layout_height="100dp" />
+</LinearLayout>
